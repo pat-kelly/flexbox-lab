@@ -55,6 +55,7 @@ main div{
   /* padding: 0 10px; */
   background: white;
   margin-bottom: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.3);
 }
 
 main div > h2,
@@ -184,8 +185,16 @@ footer{
 }
 
 #legal{
-  background: black;
+  background: rgba(30, 30, 30);
   margin: 0;
+  color:rgb(151, 154, 164);
+  display:flex;
+  justify-content: space-between;
+  padding: 3px 100px;
+  gap: 100px;
+  line-height: 0.8;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 #footerLinks{
