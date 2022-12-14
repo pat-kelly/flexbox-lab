@@ -38,7 +38,7 @@ main{
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 30px auto;
-  max-width: 1200px;
+  max-width: 1220px;
 }
 
 main > .focus{
@@ -52,10 +52,38 @@ main div{
   flex-direction: column;
   justify-content: space-between;
   width: 400px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   background: white;
   margin-bottom: 10px;
+}
 
+main div > h2,
+main div > p{
+  padding: 0 20px;
+}
+
+body > button{
+  display:block;
+  background-color: rgb(188, 15, 15);
+  color:white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  margin: 0 auto 50px auto;
+  width: 225px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+footer{
+  background-color: rgb(38, 40, 42);
+  padding: 20px 0;
+}
+
+.focus > h2,
+.focus > p{
+  padding: 0 20px;
+  
 }
 
 .readMore{
@@ -65,13 +93,13 @@ main div{
 
 .imagePlaceholder.focus{
   height: 200px;
-  width: 590px;
+  width: 600px;
   background: gray;
 }
 
 .imagePlaceholder{
   height: 200px;
-  width: 390px;
+  width: 400px;
   background: gray;
 }
 
@@ -134,10 +162,46 @@ main div{
   color: rgb(240, 85, 35);
 }
 
+.bottomNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.botNavHeader{
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(151, 154, 164);
+}
+
+.botNavLink{
+  font-size: 14px;
+  font-weight: 700;
+  color:white;
+  line-height: 0.8;
+}
+
+#legal{
+  background: black;
+  margin: 0;
+}
+
+#footerLinks{
+  display:flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
 #header > ul{
   display:flex;
   justify-content: space-between;
   width: 170px;
+}
+
+#header > img{
+  height:60px;
 }
 
 #header {
